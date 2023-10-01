@@ -4,16 +4,37 @@
     <head>
         <meta charset="utf-8">
         <title>TOP Recipes</title>
+
+        <link rel="stylesheet" href="./styles.css">
     </head>
     <body>
-        <h1>Odin Recipes</h1>
+        <div id="header" class="center">
+            <h1>Odin Recipes</h1>
 
-        <img src="./images/lareira.jpg" alt="A traditional galician fireplace." height="500" width="700">
+            <img class="rounded-corners" src="./images/lareira.jpg" alt="A traditional galician fireplace." height="500" width="700">
+        </div>
 
-        <ol>
-            <li><a href="./recipes/filloas.html">Filloas</a></li>
-            <li><a href="./recipes/caldo.html">Caldo</a></li>
-            <li><a href="./recipes/orellas.html">Orellas</a></li>
-        </ol>
+        <div id="recipelist" class="center">
+            <ul class="horizontal-display">
+                <li>
+                    <a href="./recipes/filloas.html">
+                        <img class="extra-rounded-corners" src="./images/filloas.jpg" alt="Filloas recipe miniature." height="250" width="350">
+                        <p>Filloas</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./recipes/caldo.html">
+                        <img class="extra-rounded-corners" src="./images/caldo.jpg" alt="Caldo recipe miniature." height="250" width="350">
+                        <p>Caldo</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./recipes/orellas.html">
+                        <img class="extra-rounded-corners" src="./images/orellas.jpg" alt="Orellas recipe miniature." height="250" width="350">
+                        <p>Orellas</p>
+                    </a>
+                </li>
+            </ol>
+        </div>
     </body>
 </html>

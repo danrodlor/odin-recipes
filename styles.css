@@ -1,0 +1,87 @@
+body {
+    background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2 {
+    color: rgb(139, 74, 0);
+}
+
+h1 {
+    font-size: 64px;
+    border-bottom: 1px solid currentColor;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+a {
+    color: brown;
+}
+
+a:hover {
+    color: red;
+}
+
+img.rounded-corners {
+    border-radius: 10px;
+}
+
+img.extra-rounded-corners {
+    border-radius: 50px;
+}
+
+#header.center h1 {
+    text-align: center;
+}
+
+#header.center img {
+    display: block;
+    margin: auto;
+}
+
+#content.center {
+    max-width: 100ch;
+    display: block;
+    margin: auto;
+}
+
+#recipelist.center {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+#recipelist ol {
+    list-style-type: none;
+}
+
+.note {
+    background-color: rgb(245, 205, 154);
+    border-left: 5px solid rgb(255, 180, 83);
+    width: 100ch;
+}
+
+.note p::before {
+    content: '🍽  ';
+    margin-left: 8px;
+}
+
+ol.no-margin,
+ul.no-margin {
+    padding-left: 1.2em;
+}
+
+ol.big-item-separation li {
+    margin-bottom: 10px;
+}
+
+ul.square-bullets {
+    list-style-type: square;
+}
+
+ul.horizontal-display li {
+    display: inline-block;
+    margin-right: 5px;
+}
