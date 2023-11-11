@@ -47,13 +47,13 @@ img.extra-rounded-corners {
     margin: auto;
 }
 
-#recipelist.center {
+#recipe-list.center {
     display: block;
     margin: auto;
     text-align: center;
 }
 
-#recipelist ul {
+#recipe-list ul {
     list-style-type: none;
 }
 
@@ -84,4 +84,9 @@ ul.square-bullets {
 ul.horizontal-display li {
     display: inline-block;
     margin-right: 5px;
+}
+
+ul span.ingredient {
+    display: inline-block;
+    width: 22ch;
 }
